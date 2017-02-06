@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import Form from '../components/Form'
 import { updateName } from '../actions'
 
-const mapStateToProps = ({form}) => ( { ...form } )
+const mapStateToProps = ({form, errors}) => ( { form, errors } )
 
 const mapDispatchToProps = (dispatch) => (
   {

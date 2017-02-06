@@ -1,5 +1,5 @@
 
-import { Actions } from '../constants'
+import { Actions } from '../../constants'
 
 const INITIAL_STATE = {
   name: ''
